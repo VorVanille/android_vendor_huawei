@@ -21,19 +21,17 @@ PRODUCT_PACKAGES += \
     ims \
     SetupSmartDeviceOverlay \
     TimeService \
-    Tycho
+    Tycho 
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
-    qcrilhook \
-    com.google.widevine.software.drm \
-    com.google.android.camera.experimental2016
+    qcrilhook
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
     atfwd \
     CallStatistics \
-    CarrierEntitlement \
+    Entitlement \
     CarrierServices \
     CNEService \
     ConnMO \
@@ -42,7 +40,7 @@ PRODUCT_PACKAGES += \
     DMService \
     GCS \
     HiddenMenu \
-    HotwordEnrollment \
+    HotwordEnrollmentWCD9330 \
     qcrilmsgtunnel \
     SprintDM
 
